@@ -5,7 +5,7 @@
 A minimal Go implementation and reference for building webhook endpoints that participate in Smallstep Enterprise RADIUS EAP‑TLS authentication flows.
 
 This is an example implementation and is not intended for production use.
-For reference, see [our RADIUS webhook documentation](https://smallstep.com/docs/tutorials/radius-webhooks).
+For reference, see [our RADIUS webhook documentation](https://smallstep.com/docs/tutorials/wifi-authentication-webhooks/).
 
 With RADIUS authentication webhooks, you can integrate Smallstep’s RADIUS workflow with your own device posture or authorization checks during EAP‑TLS connection requests. Your webhook evaluates the presented client certificate and returns an allow/deny decision.
 
